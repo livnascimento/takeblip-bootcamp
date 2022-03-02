@@ -1,0 +1,35 @@
+body {
+    background: #f7f6cf;
+    color: #5784ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    text-align: center;
+}
+
+.botao {
+    background-color: #5784ba;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    color: #123a6b;
+}
+
+img {
+    width: 300px;
+    border-radius: 30px;
+}
